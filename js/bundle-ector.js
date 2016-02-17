@@ -463,13 +463,13 @@ var rwc = require('random-weighted-choice');
  */
 function Ector(botname, username) {
 
-  this.name = "ECTOR";
+  this.name = "Care Bear";
   var name;
   if (botname) {
     name = this.setName(botname);
   }
 
-  this.username = "Guy";
+  this.username = "Ian";
   var user;
 
   if (name instanceof Error) {
