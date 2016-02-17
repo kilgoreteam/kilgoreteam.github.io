@@ -159,7 +159,22 @@ function showInfo(s) {
   }
 }
 </script>
-
+<!--        <div id="messages">
+            <div class="message" id="msgtpl" style="display:none;">
+                <!-- <img src="{{{user.avatar}}}" alt="avatar"> -->
+                <div class="info">
+                    <p><strong>{{user.username}}</strong></p>
+                    <p>{{message}}</p>
+                    <span class="date">{{h}}:{{m}}</span>
+                </div>
+            </div>
+        </div>
+        -->
+        <form action="#" id="form">
+            <input type="text" id="name" title="Your name">
+            <input type="text" id="message" class="text" autofocus="autofocus" placeholder="Enter your message here." size="80">
+            <input type="submit" id="send" value="Say" class="submit">
+        </form>
 
 
     </body>
