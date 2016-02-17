@@ -12,6 +12,23 @@
         <script type="text/javascript" src="js/ector.js"></script>
     </head>
     <body>
+
+        <div id="messages">
+            <div class="message" id="msgtpl" style="display:none;">
+
+                <div class="info">
+                    <p><strong>{{user.username}}</strong></p>
+                    <p>{{message}}</p>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <form action="#" id="form">
+            <input type="text" id="name" title="Your name">
+            <input type="text" id="message" class="text" autofocus="autofocus" placeholder="Enter your message here." size="80">
+            <input type="submit" id="send" value="Say" class="submit">
+        </form>
 <div id="info">
   <p id="info_start">Click on the microphone icon and begin speaking.</p>
   <p id="info_speak_now">Speak now.</p>
@@ -159,23 +176,6 @@ function showInfo(s) {
   }
 }
 </script>
-        <div id="messages">
-            <div class="message" id="msgtpl" style="display:none;">
-
-                <div class="info">
-                    <p><strong>{{user.username}}</strong></p>
-                    <p>{{message}}</p>
-                    
-                </div>
-            </div>
-        </div>
-        
-        <form action="#" id="form">
-            <input type="text" id="name" title="Your name">
-            <input type="text" id="message" class="text" autofocus="autofocus" placeholder="Enter your message here." size="80">
-            <input type="submit" id="send" value="Say" class="submit">
-        </form>
-
 
     </body>
 </html>
