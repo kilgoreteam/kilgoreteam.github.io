@@ -138,7 +138,7 @@ if (!('webkitSpeechRecognition' in window)) {
     final_transcript = capitalize(final_transcript);
     final_span.innerHTML = linebreak(final_transcript);
     interim_span.innerHTML = linebreak(interim_transcript);
-//    document.getElementById("message").value = final_span.innerHTML;
+    document.getElementById("message").value = final_span.innerHTML;
   };
 }
 function upgrade() {
