@@ -21,12 +21,10 @@
                 <div class="info">
                     <p><strong>{{user.username}}</strong></p>
                     <p>{{message}}</p>
-                    <input onclick='responsiveVoice.speak({{message}}, "Australian Female", {pitch: 1.675,rate: 0.725});' type='button' value='do not click' />
                     <span class="date">{{h}}:{{m}}</span>
                 </div>
             </div>
         </div>
-        <input onclick='responsiveVoice.speak("Hello Ian, this is Carebear.  How are you today?", "Australian Female", {pitch: 1.675,rate: 0.725});' type='button' value='do not click' />
         <form action="#" id="form">
             <input type="text" id="name" title="Your name">
             <input type="text" id="message" class="text" autofocus="autofocus" placeholder="Enter your message here." size="80">
